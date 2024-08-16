@@ -27,7 +27,6 @@ attach_image(customer1, 'rushhour.png')
 customer2 = Customer.create!(
   full_name: "Bruce Wizard",
   phone_number: "555-0001",
-  email_address: "N/A",
   notes: "Eagle eyes is going to buy out the wizard school I need you to find his tax return so I know where he is"
 )
 attach_image(customer2, 'Brucewizard.png')
@@ -35,7 +34,6 @@ attach_image(customer2, 'Brucewizard.png')
 customer3 = Customer.create!(
   full_name: "Johnny Vegas",
   phone_number: "0151 7094014",
-  email_address: "N/A",
   notes: "\"I've been hurt. And I want to hurt others\""
 )
 attach_image(customer3, 'johnnyvegas.jpg')
