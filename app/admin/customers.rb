@@ -1,8 +1,9 @@
 ActiveAdmin.register Customer do
-  permit_params :full_name, :phone_number, :email_address, :notes, :image
+  permit_params :id, :full_name, :phone_number, :email_address, :notes, :image
 
   form do |f|
     f.inputs do
+      f.input :id
       f.input :full_name
       f.input :phone_number
       f.input :email_address

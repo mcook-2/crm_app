@@ -36,6 +36,9 @@ gem 'mini_magick'
 
 gem 'sassc-rails'
 
+gem 'google-cloud-storage'
+
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

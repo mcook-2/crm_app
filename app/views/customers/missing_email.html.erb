@@ -1,0 +1,15 @@
+<h1>Customers Missing Email Address</h1>
+<div class="container">
+  <div class="row w-100 g-2">
+    <% @customers.each do |customer| %>
+      <div class="col">
+        <%= render partial: 'customer', locals: { customer: customer } %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="links">
+  <%= link_to 'All Customers', root_path %>
+  <%= link_to 'Alphabetized Customers', customers_alphabetized_path %>
+</div>
