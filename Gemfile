@@ -38,6 +38,8 @@ gem 'sassc-rails'
 
 gem 'google-cloud-storage'
 
+gem 'activerecord-enhancedsqlite3-adapter'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
